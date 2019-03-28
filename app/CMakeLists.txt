@@ -64,6 +64,19 @@ add_library( # The name of the library.
              src/main/jni/breadwallet-core/BRTransaction.h
              src/main/jni/breadwallet-core/BRWallet.c
              src/main/jni/breadwallet-core/BRWallet.h
+             src/main/jni/breadwallet-core/nist5.c
+             src/main/jni/breadwallet-core/nist5.h
+             src/main/jni/breadwallet-core/sha3/blake.c
+             src/main/jni/breadwallet-core/sha3/groestl.c
+             src/main/jni/breadwallet-core/sha3/jh.c
+             src/main/jni/breadwallet-core/sha3/keccak.c
+             src/main/jni/breadwallet-core/sha3/skein.c
+             src/main/jni/breadwallet-core/sha3/sph_blake.h
+             src/main/jni/breadwallet-core/sha3/sph_groestl.h
+             src/main/jni/breadwallet-core/sha3/sph_jh.h
+             src/main/jni/breadwallet-core/sha3/sph_keccak.h
+             src/main/jni/breadwallet-core/sha3/sph_skein.h
+             src/main/jni/breadwallet-core/sha3/sph_types.h
 
              # BCash files
              src/main/jni/breadwallet-core/bcash/BRBCashAddr.c
