@@ -185,7 +185,7 @@ public class BreadApp extends Application implements ApplicationLifecycleObserve
             BRDFirebaseMessagingService.initialize(mInstance);
 
             // Initialize TokenUtil to load our tokens.json file from res/raw
-            TokenUtil.initialize(mInstance);
+            //TokenUtil.initialize(mInstance);
         }
     }
 
@@ -310,12 +310,12 @@ public class BreadApp extends Application implements ApplicationLifecycleObserve
 
                 HTTPServer.getInstance().startServer(this);
 
-                BRExecutor.getInstance().forLightWeightBackgroundTasks().execute(new Runnable() {
-                    @Override
-                    public void run() {
-                        TokenUtil.fetchTokensFromServer(mInstance);
-                    }
-                });
+//                BRExecutor.getInstance().forLightWeightBackgroundTasks().execute(new Runnable() {
+//                    @Override
+//                    public void run() {
+//                        TokenUtil.fetchTokensFromServer(mInstance);
+//                    }
+//                });
                 APIClient.getInstance(this).updatePlatform(this);
                 break;
             case ON_STOP:

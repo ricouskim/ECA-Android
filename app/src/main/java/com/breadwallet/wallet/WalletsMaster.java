@@ -90,19 +90,19 @@ public class WalletsMaster {
 
     //expensive operation (uses the KVStore), only update when needed and not in a loop.
     public synchronized void updateWallets(Context app) {
-        WalletEthManager ethWallet = WalletEthManager.getInstance(app);
-        if (ethWallet == null) {
-            return; //return empty wallet list if ETH is null (meaning no public key yet)
-        }
+//        WalletEthManager ethWallet = WalletEthManager.getInstance(app);
+//        if (ethWallet == null) {
+//            return; //return empty wallet list if ETH is null (meaning no public key yet)
+//        }
 
         mWallets.clear();
-        mTokenListMetaData = KVStoreManager.getTokenListMetaData(app);
+        mTokenListMetaData =  null;//KVStoreManager.getTokenListMetaData(app);
         if (mTokenListMetaData == null) {
             List<TokenListMetaData.TokenInfo> enabled = new ArrayList<>();
             enabled.add(new TokenListMetaData.TokenInfo(WalletBitcoinManager.BITCOIN_CURRENCY_CODE, false, null));
-            enabled.add(new TokenListMetaData.TokenInfo(WalletBchManager.BITCASH_CURRENCY_CODE, false, null));
-            enabled.add(new TokenListMetaData.TokenInfo(WalletEthManager.ETH_CURRENCY_CODE, false, null));
-            enabled.add(new TokenListMetaData.TokenInfo(WalletTokenManager.BRD_CURRENCY_CODE, true, WalletTokenManager.BRD_CONTRACT_ADDRESS));
+            //enabled.add(new TokenListMetaData.TokenInfo(WalletBchManager.BITCASH_CURRENCY_CODE, false, null));
+            //enabled.add(new TokenListMetaData.TokenInfo(WalletEthManager.ETH_CURRENCY_CODE, false, null));
+            //enabled.add(new TokenListMetaData.TokenInfo(WalletTokenManager.BRD_CURRENCY_CODE, true, WalletTokenManager.BRD_CONTRACT_ADDRESS));
             mTokenListMetaData = new TokenListMetaData(enabled, null);
             KVStoreManager.putTokenListMetaData(app, mTokenListMetaData); //put default currencies if null
         }
@@ -110,16 +110,16 @@ public class WalletsMaster {
         for (TokenListMetaData.TokenInfo enabled : mTokenListMetaData.enabledCurrencies) {
 
             boolean isHidden = mTokenListMetaData.isCurrencyHidden(enabled.symbol);
-
+            Log.i("Johan",enabled.symbol+":"+isHidden);
             if (enabled.symbol.equalsIgnoreCase(BaseBitcoinWalletManager.BITCOIN_CURRENCY_CODE) && !isHidden) {
                 //BTC wallet
                 mWallets.add(WalletBitcoinManager.getInstance(app));
             } else if (enabled.symbol.equalsIgnoreCase(BaseBitcoinWalletManager.BITCASH_CURRENCY_CODE) && !isHidden) {
                 //BCH wallet
-                mWallets.add(WalletBchManager.getInstance(app));
+                //mWallets.add(WalletBchManager.getInstance(app));
             } else if (enabled.symbol.equalsIgnoreCase(WalletEthManager.ETH_CURRENCY_CODE) && !isHidden) {
                 //ETH wallet
-                mWallets.add(ethWallet);
+                //mWallets.add(ethWallet);
             } else {
                 //add ERC20 wallet
                 WalletTokenManager tokenWallet = WalletTokenManager.getTokenWalletByIso(app, enabled.symbol);
