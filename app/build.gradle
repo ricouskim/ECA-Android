@@ -6,10 +6,10 @@ android {
     compileSdkVersion = 28
     buildToolsVersion = '28.0.3'
     ext {
-        brdMarketingVersion = 3   // Major version. Usually affected by marketing. Maximum value: 99
-        brdProductVersion = 8     // Minor version. Usually affected by product. Maximum value: 99
+        brdMarketingVersion = 1   // Major version. Usually affected by marketing. Maximum value: 99
+        brdProductVersion = 0     // Minor version. Usually affected by product. Maximum value: 99
         brdEngineeringVersion = 0 // Hot fix version. Usually affected by engineering. Maximum value: 9
-        brdBuildVersion = 15      // Build version. Increase for each new build. Maximum value: 999
+        brdBuildVersion = 1      // Build version. Increase for each new build. Maximum value: 999
 
         // The version code must be monotonically increasing. It is used by Android to maintain upgrade/downgrade
         // relationship between builds with a max value of 2 100 000 000.
@@ -21,7 +21,7 @@ android {
     }
     defaultConfig {
         testInstrumentationRunner = 'android.support.test.runner.AndroidJUnitRunner'
-        applicationId = 'com.breadwallet'
+        applicationId = 'com.electrawallet'
         minSdkVersion 23
         targetSdkVersion 28
 
@@ -75,9 +75,9 @@ android {
     flavorDimensions "mode"
     productFlavors {
         brd {
-            applicationId = "com.breadwallet"
+            applicationId = "com.electrawallet"
             dimension "mode"
-            resValue "string", "app_name", "BRD"
+            resValue "string", "app_name", "Electra"
             buildConfigField "boolean", "BITCOIN_TESTNET", "false"
             externalNativeBuild {
                 cmake {
@@ -91,9 +91,9 @@ android {
             //signingConfig signingConfigs.FakeSigningConfig // Uncomment to fake sign a mainnet release build for testing.
         }
         brdTestnet {
-            applicationId = "com.breadwallet.testnet"
+            applicationId = "com.electrawallet.testnet"
             dimension "mode"
-            resValue "string", "app_name", "BRD Testnet"
+            resValue "string", "app_name", "Electra Testnet"
             buildConfigField "boolean", "BITCOIN_TESTNET", "true"
             externalNativeBuild {
                 cmake {
