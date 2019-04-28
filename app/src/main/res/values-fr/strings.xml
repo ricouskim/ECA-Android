@@ -257,7 +257,7 @@
     <!-- empty private key error message -->
     <string name="Import.Error.empty">Cette clé privée est vide.</string>
     <!-- High fees error message -->
-    <string name="Import.Error.highFees">Les frais de transactions excederaient le sold disponible sur cette clé privée</string>
+    <string name="Import.Error.highFees">Les frais de transactions excéderaient le solde disponible sur cette clé privée</string>
     <!-- Not a valid private key error message -->
     <string name="Import.Error.notValid">Pas une clé privée valide</string>
     <!-- Import signing error message -->
@@ -295,9 +295,9 @@
     <!-- Ignore jailbreak warning button -->
     <string name="JailbreakWarnings.ignore">Ignorer</string>
     <!-- Jailbreak warning message -->
-    <string name="JailbreakWarnings.messageWithBalance">SÉCURITÉ DU DISPOSITIF COMPROMISE\nToute application « évasive » peut accéder aux données du porte-feuille Electra et voler vos Electras ! Détruisez ce portefeuille immédiatement et restaurez-le sur un appareil sécurisé.</string>
+    <string name="JailbreakWarnings.messageWithBalance">SÉCURITÉ DU DISPOSITIF COMPROMISE\nToute application « invasive » peut accéder aux données du porte-feuille Electra et voler vos Electras ! Détruisez ce portefeuille immédiatement et restaurez-le sur un appareil sécurisé.</string>
     <!-- Jailbreak warning message -->
-    <string name="JailbreakWarnings.messageWithoutBalance">SÉCURITÉ DU DISPOSITIF COMPROMISE\nToute application « évasive » peut accéder aux données du porte-feuille Electra et voler vos Electras. N\'utilisez Electra que sur un appareil non évasif.</string>
+    <string name="JailbreakWarnings.messageWithoutBalance">SÉCURITÉ DU DISPOSITIF COMPROMISE\nToute application « invasive » peut accéder aux données du porte-feuille Electra et voler vos Electras. N\'utilisez Electra que sur un appareil non invasif.</string>
     <!-- Jailbreak warning title -->
     <string name="JailbreakWarnings.title">AVERTISSEMENT</string>
     <!-- Wipe wallet button -->
@@ -335,7 +335,7 @@
     <!-- (Click here to) manage (your list of) wallets -->
     <string name="MenuButton.manageWallets">Gérer les portefeuilles</string>
     <!-- (press here to) scan (a) QR code -->
-    <string name="MenuButton.scan">Scanner le code QR</string>
+    <string name="MenuButton.scan">Scanner le QR code</string>
     <!-- Menu button title -->
     <string name="MenuButton.security">Centre de sécurité</string>
     <!-- Menu button title -->
@@ -387,7 +387,7 @@
     <!-- Onboarding screen Page 3 subtitle -->
     <string name="OnboardingPageThree.subtitle">Investissez et diversifiez facilement et en toute sécurité avec Electra.</string>
     <!-- Onboarding screen Page 3 title -->
-    <string name="OnboardingPageThree.title">Achetez et vendez des Electras, des tokens, et d\'autres monnaies électroniques.</string>
+    <string name="OnboardingPageThree.title">Achetez et vendez des Electras, des jetons, et d\'autres monnaies électroniques.</string>
     <!-- Onboarding screen Page 2 subtitle -->
     <string name="OnboardingPageTwo.subtitle">Nous avons sous protection des actifs valant plus de 6 millions de dollars US.</string>
     <!-- Onboarding screen Page 2 title -->
@@ -421,7 +421,7 @@
     <!-- Body text that is shown when the user successfully subscribes to email updates. -->
     <string name="Prompts.Email.successBody">Vous vous êtes inscrit avec succès pour recevoir les mises à jour</string>
     <!-- Text that is displayed as a footnote when the user successfully subscribes to email updates. -->
-    <string name="Prompts.Email.successFootnote">Nous apprécions votre soutien continu</string>
+    <string name="Prompts.Email.successFootnote">Nous apprécions votre soutien</string>
     <!-- Title that is shown when the user successfully subscribes to email updates. -->
     <string name="Prompts.Email.successTitle">Merci !</string>
     <!-- Title for a prompt that asks the user to subscribe to email updates to find out product updates. -->
@@ -459,7 +459,7 @@
     <!-- Enable Fingerprint prompt title -->
     <string name="Prompts.TouchId.title.android">Activer l\'identification par empreinte digitale</string>
     <!-- Button on fingerprint prompt so the user can enter their PIN instead -->
-    <string name="Prompts.TouchId.usePin.android">PIN</string>
+    <string name="Prompts.TouchId.usePin.android">Code PIN</string>
     <!-- Upgrade PIN prompt body. -->
     <string name="Prompts.UpgradePin.body">Electra a été mis à jour pour utiliser un code PIN à six chiffres. Appuyez ici pour mettre à niveau.</string>
     <!-- Upgrade PIN prompt title. -->
@@ -495,11 +495,11 @@
     <!-- Recover wallet header -->
     <string name="RecoverWallet.header">Récupérer le portefeuille</string>
     <!-- Reset PIN with paper key: header -->
-    <string name="RecoverWallet.header_reset_pin">Réinitialiser PIN</string>
+    <string name="RecoverWallet.header_reset_pin">Réinitialiser code PIN</string>
     <!-- Enter paper key instruction -->
     <string name="RecoverWallet.instruction">Entrez la clé papier</string>
     <!-- Recover wallet intro -->
-    <string name="RecoverWallet.intro">Récupérez votre Electra avec votre clé papier.</string>
+    <string name="RecoverWallet.intro">Récupérez votre portefeuille Electra avec votre clé papier.</string>
     <!-- Invalid paper key message -->
     <string name="RecoverWallet.invalid">La clé papier saisie n\'est pas valide. Revérifiez chaque mot et réessayez.</string>
     <!-- Previous button accessibility label -->
@@ -513,7 +513,7 @@
     <!-- Recover wallet sub-header -->
     <string name="RecoverWallet.subheader">Entrez la clé papier pour le portefeuille que vous souhaitez récupérer.</string>
     <!-- Reset PIN with paper key: sub-header -->
-    <string name="RecoverWallet.subheader_reset_pin">Pour réinitialiser votre PIN, entrez les mots de votre clé papier dans les cases ci-dessous.</string>
+    <string name="RecoverWallet.subheader_reset_pin">Pour réinitialiser votre code PIN, entrez les mots de votre clé papier dans les cases ci-dessous.</string>
     <!-- No amount entered error message. -->
     <string name="RequestAnAmount.noAmount">Veuillez d\'abord entrer un montant.</string>
     <!-- Request a specific amount of Electra -->
@@ -527,7 +527,7 @@
     <!-- extimated time -->
     <string name="ReScan.body1">20-45 minutes</string>
     <!-- Syncing explanation -->
-    <string name="ReScan.body2">Si une transaction apparaît comme achevée sur le réseau de Electra mais pas dans votre wallet Electra.</string>
+    <string name="ReScan.body2">Si une transaction apparaît comme achevée sur le réseau Electra mais pas dans votre wallet Electra.</string>
     <!-- Syncing explanation -->
     <string name="ReScan.body3">Vous recevez de manière répétée un message d\'erreur vous informant du rejet de votre transaction.</string>
     <!-- Start Sync button label -->
@@ -555,15 +555,15 @@
     <!-- Face ID button title -->
     <string name="SecurityCenter.faceIdTitle">Face ID</string>
     <!-- Paper Key button description -->
-    <string name="SecurityCenter.paperKeyDescription">La seule façon d\'accéder à votre Electra si vous perdez ou mettez à niveau votre téléphone.</string>
+    <string name="SecurityCenter.paperKeyDescription">La seule façon d\'accéder à votre portefeuille Electra si vous perdez ou mettez à niveau votre téléphone.</string>
     <!-- Paper Key button title -->
     <string name="SecurityCenter.paperKeyTitle">Clé papier</string>
     <!-- PIN button description -->
-    <string name="SecurityCenter.pinDescription">Protège vos Electra contre les utilisateurs non autorisés.</string>
+    <string name="SecurityCenter.pinDescription">Protège vos Electras contre les utilisateurs non autorisés.</string>
     <!-- PIN button title -->
-    <string name="SecurityCenter.pinTitle">PIN à six chiffres</string>
+    <string name="SecurityCenter.pinTitle">Code PIN à six chiffres</string>
     <!-- Touch ID button description -->
-    <string name="SecurityCenter.touchIdDescription">Débloquez convenablement vos Electra et envoyez de l\'argent jusqu\'à une limite définie.</string>
+    <string name="SecurityCenter.touchIdDescription">Débloquez convenablement vos Electras et envoyez de l\'argent jusqu\'à une limite définie.</string>
     <!-- Touch ID button title -->
     <string name="SecurityCenter.touchIdTitle">Touch ID</string>
     <!-- Security center fingerprint authentication button -->
@@ -571,9 +571,9 @@
     <!-- Segwit enabled confirmation title -->
     <string name="Segwit.ConfirmationConfirmationTitle">Vous avez activé SegWit !</string>
     <!-- Segwit enabled confirmation description -->
-    <string name="Segwit.ConfirmationInstructionsDescription">Merci de nous aider à faire progresser le Electra.</string>
+    <string name="Segwit.ConfirmationInstructionsDescription">Merci de nous aider à faire progresser le portefeuille mobile Electra.</string>
     <!-- Segwit instructions -->
-    <string name="Segwit.ConfirmationInstructionsInstructions">La prise en charge de SegWit est toujours une fonctionnalité bêta.\nUne fois que SegWit est activé, il ne sera plus possible de le désactiver. Vous trouverez l\'adresse du patrimoine sous Paramètres. \nCertains services tiers, y compris l\'échange de cryptomonnaies, peuvent ne pas être disponibles pour les utilisateurs qui ont activé SegWit. En cas d\'urgence, vous pourrez créer une adresse de patrimoine depuis Préférences &gt; Electra &gt; Paramètres . \nSegWit sera automatiquement activé pour tous les utilisateurs lors d\'une future mise à jour.</string>
+    <string name="Segwit.ConfirmationInstructionsInstructions">La prise en charge de SegWit est toujours une fonctionnalité bêta. \nUne fois que SegWit est activé, il ne sera plus possible de le désactiver. Vous trouverez l\'adresse du portefeuille sous Paramètres. \nCertains services tiers, y compris l\'échange de cryptomonnaies, peuvent ne pas être disponibles pour les utilisateurs qui ont activé SegWit. En cas d\'urgence, vous pourrez créer une adresse de portefeuille depuis Préférences &gt; Electra &gt; Paramètres . \nSegWit sera automatiquement activé pour tous les utilisateurs lors d\'une future mise à jour.</string>
     <!-- Segwit extra confirmation title. -->
     <string name="Segwit.ConfirmChoiceLayout">L\'activation de SegWit est une fonctionnalité irréversible. Êtes-vous sûr(e) de vouloir continuer ?</string>
     <!-- Segwit enableButton -->
@@ -583,7 +583,7 @@
     <!-- Balance: $4.00 -->
     <string name="Send.balance">Solde : %1$s</string>
     <!-- Instructions how to allow the camera access for the app -->
-    <string name="Send.cameraUnavailabeMessage.android">Autoriser l\'accès à l\'appareil photo en allant dans « Paramètres » &gt; « Apps » &gt; « Electra » &gt; « Permissions »</string>
+    <string name="Send.cameraUnavailabeMessage.android">Autoriser l\'accès à l\'appareil photo en allant dans « Paramètres » &gt; « Applications » &gt; « Electra » &gt; « Permissions »</string>
     <!-- Permission required to access camera -->
     <string name="Send.cameraUnavailabeTitle.android">Electra n\'est pas autorisé à accéder à l\'appareil photo</string>
     <!-- Camera not allowed message -->
@@ -619,7 +619,7 @@
     <!-- Is rescanning error message -->
     <string name="Send.isRescanning">L\'envoi est désactivé pendant un re-scan complet.</string>
     <!-- Warning when the user is trying to send bitcoin cash to a legacy bitcoin address (possible, but probably not what the user wants to do) -->
-    <string name="Send.legacyAddressWarning">Attention : il s\'agit d\'une ancienne adresse bitcoin. Etes-vous sûr de vouloir y envoyer des bitcoins Cash ?</string>
+    <string name="Send.legacyAddressWarning">Attention : il s\'agit d\'une ancienne adresse bitcoin. Etes-vous sûr de vouloir y envoyer des bitcoin Cash ?</string>
     <!-- We are loading the request (now) -->
     <string name="Send.loadingRequest">Chargement de la demande</string>
     <!-- Transaction fee could not be be caluculated error. -->
@@ -673,7 +673,7 @@
     <!-- Face ID spending limit label -->
     <string name="Settings.faceIdLimit">Limite de dépenses Face ID</string>
     <!-- Redeem the funds stored on this private key. -->
-    <string name="Settings.importTitle">Faire valoir une clé privée</string>
+    <string name="Settings.importTitle">Réclamer les fonds de cette clé privée</string>
     <!-- Manage settings section header -->
     <string name="Settings.manage">Gérer</string>
     <!-- Notifications label -->
@@ -697,9 +697,9 @@
     <!-- The fingerprint spending limit -->
     <string name="Settings.touchIdLimit.android">Limite de dépenses par identification avec empreinte digitale</string>
     <!-- View legacy address (old format). -->
-    <string name="Settings.ViewLegacyAddress">Voir l\'adresse de réception du patrimoine</string>
+    <string name="Settings.ViewLegacyAddress">Voir l\'adresse de réception du portefeuille</string>
     <!-- Receive Electra instructions -->
-    <string name="Settings.ViewLegacyAddressReceiveDescription">N\'envoyez de Electras (BTC) qu\'à cette adresse. Tout autre actif envoyé à cette adresse sera définitivement perdu.</string>
+    <string name="Settings.ViewLegacyAddressReceiveDescription">N\'envoyez que des Electras (BTC) à cette adresse. Tout autre actif envoyé à cette adresse sera définitivement perdu.</string>
     <!-- Receive Electra -->
     <string name="Settings.ViewLegacyAddressReceiveTitle">Recevoir des Electras</string>
     <!-- Wallet Settings section header -->
@@ -767,7 +767,7 @@
     <!-- Fingerprint Is Not Setup -->
     <string name="TouchIdSettings.disabledWarning.title.android">L\'identification par empreinte digitale n\'est pas activée</string>
     <!-- Touch Id screen label -->
-    <string name="TouchIdSettings.label">Utilisez votre empreinte digitale pour débloquer votre wallet Electra et envoyer de l\'argent jusqu\'à une limite définie.</string>
+    <string name="TouchIdSettings.label">Utilisez votre empreinte digitale pour débloquer votre portefeuille Electra et envoyer de l\'argent jusqu\'à une limite définie.</string>
     <!-- Link Text (see TouchIdSettings.customizeText) -->
     <string name="TouchIdSettings.linkText">Écran de plafond de dépenses Touch ID</string>
     <!-- Spending Limit: b100,000 ($100) -->
@@ -787,7 +787,7 @@
     <!-- Always require passcode option -->
     <string name="TouchIdSpendingLimit">Toujours demander un code d\'accès</string>
     <!-- Touch ID spending limit screen body -->
-    <string name="TouchIdSpendingLimit.body">Vous devrez entrer votre code PIN à six chiffres pour envoyer une transaction supérieure à votre limite de dépenses et toutes les 48 heures depuis la dernière fois que vous avez entré votre code PIN à six chiffres.</string>
+    <string name="TouchIdSpendingLimit.body">Vous devrez entrer votre code PIN à six chiffres pour envoyer une transaction supérieure à votre limite de dépenses et toutes les 48 heures depuis la dernière fois où vous avez entré votre code PIN à six chiffres.</string>
     <!-- Touch Id spending limit screen title -->
     <string name="TouchIdSpendingLimit.title">Limite de dépenses Touch ID</string>
     <!-- name of spending limit when using fingerprint authorization -->
@@ -825,7 +825,7 @@
     <!-- eg. Starting balance: $50.00 -->
     <string name="Transaction.starting">Solde initial : %1$s</string>
     <!-- e.g. "[The money you paid was a] Fee for token transfer: Electra" (Electra is the token that was transfered) -->
-    <string name="Transaction.tokenTransfer">Frais de transfert du jeton : %1$s</string>
+    <string name="Transaction.tokenTransfer">Frais de transfert de la monnaie : %1$s</string>
     <!-- Waiting to be confirmed string -->
     <string name="Transaction.waiting">En attente d\'être confirmé. Certains marchands exigent une confirmation pour mener à bien une transaction. Temps estimé : 1-2 heures.</string>
     <!-- e.g. I received money from an account. -->
@@ -861,9 +861,9 @@
     <!-- "Received [$5] at [which of my addresses]" => This is the "at [which of my addresses]" part. -->
     <string name="TransactionDetails.from">à %1$s</string>
     <!-- Tx detail field header -->
-    <string name="TransactionDetails.gasLimitHeader">Limite de gaz</string>
+    <string name="TransactionDetails.gasLimitHeader">Limite de gas</string>
     <!-- Tx detail field header -->
-    <string name="TransactionDetails.gasPriceHeader">Prix du gaz</string>
+    <string name="TransactionDetails.gasPriceHeader">Prix du gas</string>
     <!-- Label showing the transaction was started (initialized) -->
     <string name="TransactionDetails.initializedTimestampHeader">Initialisé</string>
     <!-- More button title -->
@@ -927,13 +927,13 @@
     <!-- My Address button title -->
     <string name="UnlockScreen.myAddress">Mon adresse</string>
     <!-- Reset PIN with Paper Key button label. -->
-    <string name="UnlockScreen.resetPin">Réinitialiser le PIN</string>
+    <string name="UnlockScreen.resetPin">Réinitialiser le code PIN</string>
     <!-- Scan button title -->
     <string name="UnlockScreen.scan">Scanner</string>
     <!-- Instruction to touch the sensor for fingerprint authentication -->
     <string name="UnlockScreen.touchIdInstructions.android">Appuyez sur le capteur</string>
     <!-- TouchID prompt text -->
-    <string name="UnlockScreen.touchIdPrompt">Déverrouillez votre wallet Electra.</string>
+    <string name="UnlockScreen.touchIdPrompt">Déverrouillez votre portefeuille Electra.</string>
     <!-- Device authentication body -->
     <string name="UnlockScreen.touchIdPrompt.android">Veuillez déverrouiller votre appareil Android pour continuer.</string>
     <!-- Unlock with TouchID accessibility label -->
@@ -941,21 +941,21 @@
     <!-- Device authentication title -->
     <string name="UnlockScreen.touchIdTitle.android">Identification nécessaire</string>
     <!-- Update PIN caption text -->
-    <string name="UpdatePin.caption">Souvenez-vous de ce code PIN. Si vous l\'oubliez, vous ne pourrez pas accéder à votre Electra.</string>
+    <string name="UpdatePin.caption">Souvenez-vous de ce code PIN. Si vous l\'oubliez, vous ne pourrez pas accéder à votre portefeuille Electra.</string>
     <!-- PIN creation info. -->
-    <string name="UpdatePin.createInstruction">Votre PIN sera utilisé pour débloquer votre wallet Electra et envoyer de l\'argent.</string>
+    <string name="UpdatePin.createInstruction">Votre PIN sera utilisé pour débloquer votre portefeuille Electra et envoyer de l\'argent.</string>
     <!-- Update PIN title -->
-    <string name="UpdatePin.createTitle">Définir PIN</string>
+    <string name="UpdatePin.createTitle">Définir code PIN</string>
     <!-- Update PIN title -->
-    <string name="UpdatePin.createTitleConfirm">Entrer le PIN à nouveau</string>
+    <string name="UpdatePin.createTitleConfirm">Entrer le code PIN à nouveau</string>
     <!-- Enter current PIN instruction -->
     <string name="UpdatePin.enterCurrent">Entrez votre code PIN actuel.</string>
     <!-- Enter new PIN instruction -->
     <string name="UpdatePin.enterNew">Entrez votre nouveau code PIN.</string>
     <!-- Re-Enter new PIN instruction -->
-    <string name="UpdatePin.reEnterNew">Entrez votre nouveau PIN à nouveau.</string>
+    <string name="UpdatePin.reEnterNew">Entrez votre nouveau code PIN à nouveau.</string>
     <!-- Update PIN failure error message. -->
-    <string name="UpdatePin.setPinError">Désolés, nous n\'avons pas pu mettre à jour le code PIN.</string>
+    <string name="UpdatePin.setPinError">Désolé, nous n\'avons pas pu mettre à jour le code PIN.</string>
     <!-- Update PIN failure alert view title -->
     <string name="UpdatePin.setPinErrorTitle">Erreur de mise à jour du code PIN</string>
     <!-- Update PIN title -->
@@ -973,11 +973,11 @@
     <!-- Verify PIN view body -->
     <string name="VerifyPin.continueBody">Entrez votre code PIN pour continuer.</string>
     <!-- Verify PIN view title -->
-    <string name="VerifyPin.title">PIN requis</string>
+    <string name="VerifyPin.title">Code PIN requis</string>
     <!-- Authorize transaction with touch id message -->
     <string name="VerifyPin.touchIdMessage">Autoriser cette transaction</string>
     <!-- 'No wallet' warning for watch app -->
-    <string name="Watch.noWalletWarning">Ouvrez l\'application Electra de l\'iPhone pour configurer votre portefeuille.</string>
+    <string name="Watch.noWalletWarning">Ouvrez l\'application Electra du téléphone pour configurer votre portefeuille.</string>
     <!-- Dismiss button label -->
     <string name="Webview.dismiss">Ignorer</string>
     <!-- Webview loading error message -->
@@ -985,7 +985,7 @@
     <!-- Updating webview message -->
     <string name="Webview.updating">Mise à jour...</string>
     <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-    <string name="Welcome.body">Electra revient sous le nom de walelt Electra, avec un nouveau design et de nouvelles fonctionnalités. \n\nSi vous avez besoin d\'aide, cliquez sur le (?) en haut à droite de la plupart des écrans.</string>
+    <string name="Welcome.body">Electra vous présente le portefeuille mobile Electra, avec un nouveau design et de nouvelles fonctionnalités. \n\nSi vous avez besoin d\'aide, cliquez sur le (?) en haut à droite de la plupart des écrans.</string>
     <!-- Top title of welcome screen -->
     <string name="Welcome.title">Bienvenue chez Electra!</string>
     <!-- Wipe wallet alert message -->
@@ -997,19 +997,19 @@
     <!-- Failed wipe wallet alert title -->
     <string name="WipeWallet.failedTitle">Échec</string>
     <!-- Enter phrase to wipe wallet instruction. (Important to explain it is the CURRENT [this wallet's] paper key that needs to be entered). -->
-    <string name="WipeWallet.instruction">Pour commencer un nouveau portefeuille ou rétablir un portefeuille existant, vous devez d\'abord supprimer le portefeuille actuellement installé. Pour continuer, saisissez la Clé Papier du portefeuille actuel.</string>
+    <string name="WipeWallet.instruction">Pour commencer un nouveau portefeuille ou importer un portefeuille existant, vous devez d\'abord supprimer le portefeuille actuellement installé. Pour continuer, saisissez la Clé Papier du portefeuille actuel.</string>
     <!-- Instructions for unlinking the wallet -->
     <string name="WipeWallet.startMessage">Démarrer ou récupérer un autre portefeuille vous permet d\'accéder et de gérer un portefeuille Electra différent sur cet appareil.</string>
     <!-- Start wipe wallet view warning -->
-    <string name="WipeWallet.startWarning">Vous ne pourrez plus accéder à votre portefeuille courant depuis cet appareil. Si vous souhaitez le récupérer plus tard, vous devrais réentrer la clé papier.</string>
+    <string name="WipeWallet.startWarning">Vous ne pourrez plus accéder à votre portefeuille courant depuis cet appareil. Si vous souhaitez le récupérer plus tard, vous devrez entrer à nouveau la clé papier.</string>
     <!-- Unlink this wallet from this device. -->
-    <string name="WipeWallet.title">Démarrer our réinitialiser un autre portefeuille</string>
+    <string name="WipeWallet.title">Démarrer pour réinitialiser un autre portefeuille</string>
     <!-- Wipe wallet button title -->
     <string name="WipeWallet.wipe">Effacer</string>
     <!-- Wiping activity message -->
     <string name="WipeWallet.wiping">Effacement...</string>
     <!-- Paper key instructions. -->
-    <string name="WritePaperPhrase.instruction">Écrivez chaque mot en ordre et conserver dans un lieu sûr.</string>
+    <string name="WritePaperPhrase.instruction">Écrivez chaque mot dans l\'ordre et conserver dans un lieu sûr.</string>
     <!-- button label -->
     <string name="WritePaperPhrase.next">Suivant</string>
     <!-- button label -->
