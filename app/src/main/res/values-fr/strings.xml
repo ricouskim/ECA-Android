@@ -295,9 +295,9 @@
     <!-- Ignore jailbreak warning button -->
     <string name="JailbreakWarnings.ignore">Ignorer</string>
     <!-- Jailbreak warning message -->
-    <string name="JailbreakWarnings.messageWithBalance">SÉCURITÉ DU DISPOSITIF COMPROMISE\nToute application « invasive » peut accéder aux données du porte-feuille Electra et voler vos Electras ! Détruisez ce portefeuille immédiatement et restaurez-le sur un appareil sécurisé.</string>
+    <string name="JailbreakWarnings.messageWithBalance">SÉCURITÉ DU DISPOSITIF COMPROMISE\nToute application « invasive » peut accéder aux données du portefeuille Electra et voler vos Electras ! Détruisez ce portefeuille immédiatement et restaurez-le sur un appareil sécurisé.</string>
     <!-- Jailbreak warning message -->
-    <string name="JailbreakWarnings.messageWithoutBalance">SÉCURITÉ DU DISPOSITIF COMPROMISE\nToute application « invasive » peut accéder aux données du porte-feuille Electra et voler vos Electras. N\'utilisez Electra que sur un appareil non invasif.</string>
+    <string name="JailbreakWarnings.messageWithoutBalance">SÉCURITÉ DU DISPOSITIF COMPROMISE\nToute application « invasive » peut accéder aux données du portefeuille Electra et voler vos Electras. N\'utilisez Electra que sur un appareil non invasif.</string>
     <!-- Jailbreak warning title -->
     <string name="JailbreakWarnings.title">AVERTISSEMENT</string>
     <!-- Wipe wallet button -->
