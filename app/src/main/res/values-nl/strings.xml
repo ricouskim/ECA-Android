@@ -104,8 +104,8 @@
     <string name="BCH.txHashHeader">BCH Transactie-ID.</string>
     <!-- Approve button label -->
     <string name="BitID.approve">Goedkeuren</string>
-    <!-- <sitename> is requesting authentication using your bitcoin wallet -->
-    <string name="BitID.authenticationRequest">%1$s vraagt om authenticatie om je bitcoin-portemonnee te gebruiken</string>
+    <!-- <sitename> is requesting authentication using your Electra wallet -->
+    <string name="BitID.authenticationRequest">%1$s vraagt om authenticatie om je Electra-portemonnee te gebruiken</string>
     <!-- Deny button label -->
     <string name="BitID.deny">Weigeren</string>
     <!-- BitID error alert title -->
@@ -116,7 +116,7 @@
     <string name="BitID.success">Succesvol geïdentificeerd</string>
     <!-- BitID Authentication Request alert view title -->
     <string name="BitID.title">BitID Authenticatieverzoek</string>
-    <!-- As in "(tap here to) buy (bitcoin)" -->
+    <!-- As in "(tap here to) buy (Electra)" -->
     <string name="Button.buy">Kopen</string>
     <!-- Cancel button label -->
     <string name="Button.cancel">Annuleren</string>
@@ -180,8 +180,8 @@
     <string name="Crowdsale.resume">Verificatie Voortzetten</string>
     <!-- Retry Identity verification button -->
     <string name="Crowdsale.retry">Opnieuw proberen</string>
-    <!-- Bitcoin denomination picker label -->
-    <string name="DefaultCurrency.bitcoinLabel">Bitcoin-eenheid</string>
+    <!-- Electra denomination picker label -->
+    <string name="DefaultCurrency.bitcoinLabel">Electra-eenheid</string>
     <!-- Exchange rate label -->
     <string name="DefaultCurrency.rateLabel">Wisselkoers</string>
     <!-- The wallet is disabled. -->
@@ -238,7 +238,7 @@
     <string name="FeeSelector.title">Verwerkingssnelheid</string>
     <!-- This is the section that allows administration of the user's wallet -->
     <string name="HomeScreen.admin">Beheerder</string>
-    <!-- Home screen menu button to buy some bitcoin -->
+    <!-- Home screen menu button to buy some Electra -->
     <string name="HomeScreen.buy">Kopen</string>
     <!-- Menu button on the home screen toolbar -->
     <string name="HomeScreen.menu">Menu</string>
@@ -251,7 +251,7 @@
     <!-- Checking private key balance progress view text -->
     <string name="Import.checking">Private key balans checken...</string>
     <!-- Sweep private key confirmation message -->
-    <string name="Import.confirm">%1$s van deze private key naar je wallet sturen? Het Bitcoinnetwerk zal een fee ontvangen van %2$s.</string>
+    <string name="Import.confirm">%1$s van deze private key naar je wallet sturen? Het Electranetwerk zal een fee ontvangen van %2$s.</string>
     <!-- Duplicate key error message -->
     <string name="Import.Error.duplicate">Deze private key zit al in je portemonnee.</string>
     <!-- empty private key error message -->
@@ -295,9 +295,9 @@
     <!-- Ignore jailbreak warning button -->
     <string name="JailbreakWarnings.ignore">Negeren</string>
     <!-- Jailbreak warning message -->
-    <string name="JailbreakWarnings.messageWithBalance">APPARAAT BEVEILIGING BESCHADIGD\nElke \'jailbreak\' app heeft toegang tot de sleutelhanger data van BRD en kan hiermee je Bitcoins stelen! Wis deze portemonnee direct en herstel het op een veilig apparaat.</string>
+    <string name="JailbreakWarnings.messageWithBalance">APPARAAT BEVEILIGING BESCHADIGD\nElke \'jailbreak\' app heeft toegang tot de sleutelhanger data van BRD en kan hiermee je Electras stelen! Wis deze portemonnee direct en herstel het op een veilig apparaat.</string>
     <!-- Jailbreak warning message -->
-    <string name="JailbreakWarnings.messageWithoutBalance">APPARAAT BEVEILIGING BESCHADIGD\nElke \'jailbreak\' app heeft toegang tot de sleutelhanger data van BRD en kan hiermee je Bitcoins stelen. Gebruik BRD a.u.b. alleen op een niet-gejailbreakt apparaat.</string>
+    <string name="JailbreakWarnings.messageWithoutBalance">APPARAAT BEVEILIGING BESCHADIGD\nElke \'jailbreak\' app heeft toegang tot de sleutelhanger data van BRD en kan hiermee je Electras stelen. Gebruik BRD a.u.b. alleen op een niet-gejailbreakt apparaat.</string>
     <!-- Jailbreak warning title -->
     <string name="JailbreakWarnings.title">WAARSCHUWING</string>
     <!-- Wipe wallet button -->
@@ -367,7 +367,7 @@
     <!-- Node status label -->
     <string name="NodeSelector.statusLabel">Connectiestatus van de node</string>
     <!-- Node Selector view title -->
-    <string name="NodeSelector.title">Bitcoin-nodes</string>
+    <string name="NodeSelector.title">Electra-nodes</string>
     <!-- Onboarding screen 'I'll browse first' button -->
     <string name="Onboarding.browseFirst">Ik kijk eerst even rond</string>
     <!-- Onboarding screen 'Buy some coin' button -->
@@ -387,7 +387,7 @@
     <!-- Onboarding screen Page 3 subtitle -->
     <string name="OnboardingPageThree.subtitle">Investeer en diversifieer met BRD, snel en veilig.</string>
     <!-- Onboarding screen Page 3 title -->
-    <string name="OnboardingPageThree.title">Koop en handel in bitcoin, tokens en andere digitale valuta.</string>
+    <string name="OnboardingPageThree.title">Koop en handel in Electra, tokens en andere digitale valuta.</string>
     <!-- Onboarding screen Page 2 subtitle -->
     <string name="OnboardingPageTwo.subtitle">We hebben meer dan $6 miljard USD waard aan aandelen onder onze bescherming.</string>
     <!-- Onboarding screen Page 2 title -->
@@ -407,9 +407,9 @@
     <!-- Payment too small alert title -->
     <string name="PaymentProtocol.Errors.smallOutputError">Kon de betaling niet uitvoeren</string>
     <!-- Amount too small error message -->
-    <string name="PaymentProtocol.Errors.smallPayment">Bitcoin betalingen kunnen niet minder zijn dan %1$s.</string>
+    <string name="PaymentProtocol.Errors.smallPayment">Electra betalingen kunnen niet minder zijn dan %1$s.</string>
     <!-- Output too small error message. -->
-    <string name="PaymentProtocol.Errors.smallTransaction">Bitcoin transactie outputs kunnen niet minder zijn dan %1$s.</string>
+    <string name="PaymentProtocol.Errors.smallTransaction">Electra transactie outputs kunnen niet minder zijn dan %1$s.</string>
     <!-- Unsupported signature type payment protocol error message -->
     <string name="PaymentProtocol.Errors.unsupportedSignatureType">niet-ondersteund handtekening type</string>
     <!-- Untrusted certificate payment protocol error message -->
@@ -516,7 +516,7 @@
     <string name="RecoverWallet.subheader_reset_pin">Om je PIN te resetten moet je de woorden van je papieren sleutel in onderstaande velden invoeren.</string>
     <!-- No amount entered error message. -->
     <string name="RequestAnAmount.noAmount">Vul alstublieft eerst een bedrag in.</string>
-    <!-- Request a specific amount of bitcoin -->
+    <!-- Request a specific amount of Electra -->
     <string name="RequestAnAmount.title">Een bedrag aanvragen</string>
     <!-- Alert action button label -->
     <string name="ReScan.alertAction">Synchroniseren</string>
@@ -527,7 +527,7 @@
     <!-- extimated time -->
     <string name="ReScan.body1">20-45 minuten</string>
     <!-- Syncing explanation -->
-    <string name="ReScan.body2">Als een transactie als voltooid staat op het Bitcoin netwerk maar niet in je BRD.</string>
+    <string name="ReScan.body2">Als een transactie als voltooid staat op het Electra netwerk maar niet in je BRD.</string>
     <!-- Syncing explanation -->
     <string name="ReScan.body3">Je kreeg herhaaldelijk een foutmelding die zei dat je transactie werd afgewezen.</string>
     <!-- Start Sync button label -->
@@ -540,7 +540,7 @@
     <string name="ReScan.subheader1">Geschatte tijd</string>
     <!-- Subheader label -->
     <string name="ReScan.subheader2">Wanneer Synchroniseren?</string>
-    <!-- Scan bitcoin address camera flash toggle -->
+    <!-- Scan Electra address camera flash toggle -->
     <string name="Scanner.flashButtonLabel">Camera Flits</string>
     <!-- Complete filter label -->
     <string name="Search.complete">complete</string>
@@ -555,7 +555,7 @@
     <!-- Face ID button title -->
     <string name="SecurityCenter.faceIdTitle">Face-ID</string>
     <!-- Paper Key button description -->
-    <string name="SecurityCenter.paperKeyDescription">De enige manier om toegang te hebben tot je Bitcoins is als je je telefoon verliest of upgrade.</string>
+    <string name="SecurityCenter.paperKeyDescription">De enige manier om toegang te hebben tot je Electras is als je je telefoon verliest of upgrade.</string>
     <!-- Paper Key button title -->
     <string name="SecurityCenter.paperKeyTitle">Papieren Sleutel</string>
     <!-- PIN button description -->
@@ -571,9 +571,9 @@
     <!-- Segwit enabled confirmation title -->
     <string name="Segwit.ConfirmationConfirmationTitle">U hebt SegWit geactiveerd!</string>
     <!-- Segwit enabled confirmation description -->
-    <string name="Segwit.ConfirmationInstructionsDescription">Bedankt voor het ondersteunen van Bitcoin.</string>
+    <string name="Segwit.ConfirmationInstructionsDescription">Bedankt voor het ondersteunen van Electra.</string>
     <!-- Segwit instructions -->
-    <string name="Segwit.ConfirmationInstructionsInstructions">SegWit-support is nog een bèta-functie.\nZodra SegWit is geactiveerd, zal het niet langer mogelijk zijn om de functie te deactiveren. U kunt de het legacyadres vinden onder Instellingen.\nSommige externe diensten, waaronder de cryptotrade, zijn mogelijk niet beschikbaar voor gebruikers die SegWit hebben geactiveerd. In geval van nood kunt u een legacyadres genereren via Voorkeuren &gt; Bitcoininstellingen.\nSegWit zal automatisch worden geactiveerd voor alle gebruikers in een toekomstige update.</string>
+    <string name="Segwit.ConfirmationInstructionsInstructions">SegWit-support is nog een bèta-functie.\nZodra SegWit is geactiveerd, zal het niet langer mogelijk zijn om de functie te deactiveren. U kunt de het legacyadres vinden onder Instellingen.\nSommige externe diensten, waaronder de cryptotrade, zijn mogelijk niet beschikbaar voor gebruikers die SegWit hebben geactiveerd. In geval van nood kunt u een legacyadres genereren via Voorkeuren &gt; Electrainstellingen.\nSegWit zal automatisch worden geactiveerd voor alle gebruikers in een toekomstige update.</string>
     <!-- Segwit extra confirmation title. -->
     <string name="Segwit.ConfirmChoiceLayout">Het activeren van SegWit is een onomkeerbaar proces. Weet u zeker dat u verder wilt gaan?</string>
     <!-- Segwit enableButton -->
@@ -610,7 +610,7 @@
     <string name="Send.insufficientGasMessage">Je moet minstens %1$s in je wallet hebben om dit type token te versturen. Wil je graag nu naar je Ethereum wallet gaan?</string>
     <!-- Your ethereum balance is insufficient to complete this action. -->
     <string name="Send.insufficientGasTitle">Onvoldoende Ethereum Saldo</string>
-    <!-- e.g. The destination is not a valid (bitcoin) address. -->
+    <!-- e.g. The destination is not a valid (Electra) address. -->
     <string name="Send.invalidAddressMessage">Het bestemmingsadres is geen geldig %1$s-adres.</string>
     <!-- Invalid address on pasteboard message -->
     <string name="Send.invalidAddressOnPasteboard">Plakbord bevat geen geldig %1$s adres.</string>
@@ -647,7 +647,7 @@
     <!-- Send money to label -->
     <string name="Send.toLabel">Naar</string>
     <!-- Adress already used alert message - first part -->
-    <string name="Send.UsedAddress.firstLine">Bitcoin adressen zijn alleen bedoeld voor enkel gebruik.</string>
+    <string name="Send.UsedAddress.firstLine">Electra adressen zijn alleen bedoeld voor enkel gebruik.</string>
     <!-- Adress already used alert message - second part -->
     <string name="Send.UsedAddress.secondLIne">Hergebruikt vermindert privacy voor zowel jou en de ontvanger en kan resulteren in verlies als de ontvanger niet direct het adres beheert.</string>
     <!-- Adress already used alert title -->
@@ -698,10 +698,10 @@
     <string name="Settings.touchIdLimit.android">Uitgavelimiet voor authenticatie met vingerafdruk</string>
     <!-- View legacy address (old format). -->
     <string name="Settings.ViewLegacyAddress">Bekijk Legacyontvangstadres</string>
-    <!-- Receive Bitcoin instructions -->
-    <string name="Settings.ViewLegacyAddressReceiveDescription">Verzend enkel Bitcoin (BTC) naar dit adres. Elk ander activum dat naar dit adres wordt verzonden, zal permanent verloren gaan.</string>
-    <!-- Receive Bitcoin -->
-    <string name="Settings.ViewLegacyAddressReceiveTitle">Ontvang Bitcoin</string>
+    <!-- Receive Electra instructions -->
+    <string name="Settings.ViewLegacyAddressReceiveDescription">Verzend enkel Electra (BTC) naar dit adres. Elk ander activum dat naar dit adres wordt verzonden, zal permanent verloren gaan.</string>
+    <!-- Receive Electra -->
+    <string name="Settings.ViewLegacyAddressReceiveTitle">Ontvang Electra</string>
     <!-- Wallet Settings section header -->
     <string name="Settings.wallet">Portemonnee</string>
     <!-- Unlink/delete your wallet from the current device. -->
@@ -723,7 +723,7 @@
     <!-- button label -->
     <string name="StartViewController.createButton">Nieuwe wallet maken</string>
     <!-- Start view message -->
-    <string name="StartViewController.message">De veiligste en betrouwbaarste manier om bitcoin te gebruiken.</string>
+    <string name="StartViewController.message">De veiligste en betrouwbaarste manier om Electra te gebruiken.</string>
     <!-- Recover your wallet from a backup -->
     <string name="StartViewController.recoverButton">Wallet herstellen</string>
     <!-- Syncing view connectiong state header text -->
@@ -915,7 +915,7 @@
     <!-- Tx detail field header -->
     <string name="TransactionDetails.totalHeader">Totaal</string>
     <!-- Transaction ID header -->
-    <string name="TransactionDetails.txHashHeader">Bitcoin Transactie-ID</string>
+    <string name="TransactionDetails.txHashHeader">Electra Transactie-ID</string>
     <!-- (this transaction was) Received at this address: -->
     <string name="TransactionDirection.address">Ontvangen op dit adres</string>
     <!-- (this transaction was) Sent to this address: -->
@@ -941,7 +941,7 @@
     <!-- Device authentication title -->
     <string name="UnlockScreen.touchIdTitle.android">Authenticatie vereist</string>
     <!-- Update PIN caption text -->
-    <string name="UpdatePin.caption">Onthoud deze PIN. Als je deze vergeet, zul je niet in staat zijn om bij je Bitcoins te kunnen.</string>
+    <string name="UpdatePin.caption">Onthoud deze PIN. Als je deze vergeet, zul je niet in staat zijn om bij je Electras te kunnen.</string>
     <!-- PIN creation info. -->
     <string name="UpdatePin.createInstruction">Je PIN zal worden gebruikt om je BRD te ontgrendelen en geld te versturen.</string>
     <!-- Update PIN title -->
